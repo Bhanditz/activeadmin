@@ -10,7 +10,7 @@ group :lint do
   # Code style
   gem 'rubocop', '0.60.0'
   gem 'rubocop-rspec', '~> 1.30'
-  gem 'mdl', '0.5.0'
+  gem 'mdl', '0.7.0'
 
   # Translations
   gem 'i18n-tasks'
@@ -19,7 +19,7 @@ end
 
 group :docs do
   gem 'yard'     # Documentation generator
-  gem 'kramdown' # Markdown implementation (for yard)
+  gem 'kramdown' , '>= 2.3.0' # Markdown implementation (for yard)
 end
 
 gem "rails", "~> 5.2.2"
