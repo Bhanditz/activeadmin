@@ -13,7 +13,7 @@ group :lint do
   gem 'mdl', '0.5.0'
 
   # Translations
-  gem 'i18n-tasks'
+  gem 'i18n-tasks', '>= 0.9.28'
   gem 'i18n-spec'
 end
 
