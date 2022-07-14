@@ -22,7 +22,7 @@ group :docs do
   gem 'kramdown' # Markdown implementation (for yard)
 end
 
-gem "rails", "~> 5.2.2"
+gem "rails", "~> 5.2.8", ">= 5.2.8.1"
 gem "activerecord-jdbcsqlite3-adapter", "~> 52.0", platform: :jruby
 
 gemspec path: "."
