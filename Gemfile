@@ -13,7 +13,7 @@ group :lint do
   gem 'mdl', '0.5.0'
 
   # Translations
-  gem 'i18n-tasks'
+  gem 'i18n-tasks', '>= 0.9.29'
   gem 'i18n-spec'
 end
 
@@ -22,7 +22,7 @@ group :docs do
   gem 'kramdown' # Markdown implementation (for yard)
 end
 
-gem "rails", "~> 5.2.2"
+gem "rails", "~> 6.1.7", ">= 6.1.7.4"
 gem "activerecord-jdbcsqlite3-adapter", "~> 52.0", platform: :jruby
 
 gemspec path: "."
