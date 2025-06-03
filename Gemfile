@@ -10,10 +10,10 @@ group :lint do
   # Code style
   gem 'rubocop', '0.60.0'
   gem 'rubocop-rspec', '~> 1.30'
-  gem 'mdl', '0.5.0'
+  gem 'mdl', '0.7.0'
 
   # Translations
-  gem 'i18n-tasks'
+  gem 'i18n-tasks', '>= 0.9.29'
   gem 'i18n-spec'
 end
 
@@ -22,7 +22,7 @@ group :docs do
   gem 'kramdown' # Markdown implementation (for yard)
 end
 
-gem "rails", "~> 5.2.2"
+gem "rails", "~> 7.1.0"
 gem "activerecord-jdbcsqlite3-adapter", "~> 52.0", platform: :jruby
 
 gemspec path: "."
